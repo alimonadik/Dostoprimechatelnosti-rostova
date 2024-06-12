@@ -1,0 +1,21 @@
+
+footer {
+    grid-column: 1/13;
+    background-color: #99CC66;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: left;
+    font-size: 1.2em;
+  }
+  footer div {
+    margin: 2em;
+  }
+  
+  .o-nas {
+    width: 40%;
+  }
+  
+  footer>div>h3, p {
+    margin: 1em
+  }
