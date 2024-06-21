@@ -1,0 +1,38 @@
+
+footer {
+    grid-column: 1/13;
+    background-color: #99CC66;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: left;
+    font-size: 1.2em;
+  }
+  footer div {
+    margin: 2em;
+  }
+  
+  .o-nas {
+    width: 40%;
+  }
+  
+  footer>div> p {
+    margin: 1.5em
+  }
+ .knopka {
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(to left, #DCE35B, #45B649, #DCE35B);
+  text-decoration: none;
+  background-size: 200%;
+  transition: .5s;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 0.5em; }
+
+.knopka:hover {
+  background-position: right;
+}
+#knopka{
+  color:black;
+}

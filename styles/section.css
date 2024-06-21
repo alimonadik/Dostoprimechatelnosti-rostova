@@ -1,0 +1,117 @@
+
+* {
+        font-family: "Bitter", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+img {
+    width: 100%;
+    border-radius: 0.5em;
+}
+.shir {
+    width: 60%;
+    margin-inline: 20%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: 	#dcdcdc;
+}
+
+
+
+
+.section-img {
+grid-column: 1/13;
+margin: 0;
+padding: 0;
+}
+
+.zag {
+grid-column: 1/13; 
+background-color: #747474;  
+color: white;
+}
+
+section>.zag > h1 {
+margin: 2em;
+text-align: center;
+font-size: 2em;
+}
+
+.main{
+background-color: #FFFFFF;
+grid-column: 2/12; 
+font-size: 1.5em;
+}
+
+section > .main > p {
+    text-align: left;
+    margin: 2em;
+}
+
+section > .main >h2 {
+margin: 1em;
+}
+section > .main > ul {
+    margin: 2em;
+    margin-left: 3em;
+    }
+#RostovKreml > h2{
+margin: 1em;
+}
+#RostovKreml > p {
+    margin: 2em;
+}
+#RostovKreml > ul {
+    margin: 2em;
+    margin-left: 3em;
+}
+
+#monastir > *{
+    margin: 1em
+}
+#monastir > p{
+    margin: 2em
+}
+
+
+.flt-right, .spaso-sobor {
+    float: right;
+    width: 40%;
+    margin-inline: 2em;
+}
+
+.finifti-kollektion,.uspen-sobor-flt {
+    width:40%;
+    float: right;
+    margin-inline: 1em;
+    margin-left: 3em;
+}
+
+
+
+section h2 {
+    margin: 1em;
+}
+
+section  p {
+    margin: 2em;
+}
+section  ul {
+    margin: 3em;
+}
+
+.no-mrgn-top {
+    margin-top: 0em
+}
+
+.finift-master-class {
+    width: 60%;
+    margin-inline: 20%;
+}
+
+.muzei-narodnogo-tv-mrgn-top {
+margin-right: 45%;
+}
